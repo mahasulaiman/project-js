@@ -11,8 +11,8 @@ function shuffle(array) {
 
     return array;
 }
+let allLis = document.getElementById('li');
 
-// varible
 
 
 //functions
