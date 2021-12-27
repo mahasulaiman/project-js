@@ -22,6 +22,7 @@
     cursor: pointer;
     border-radius: 10px;
     box-shadow: 5px 5px 10px 0 rgb(46 61 73 / 50%);
+    cursor: pointer;
 }
 
 .open{
