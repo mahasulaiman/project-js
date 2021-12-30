@@ -63,29 +63,25 @@ card.addEventListener("click",(event)=>{
     event.target.classList.add("open")
     openCard.push(event.target)
     console.log(openCard.length);
+    
 if(openCard.length==2){
     match();
+    move();
 }
-    }
 
+    }  
 }
 )
 }
 
 
-var countMoves = document.getElementById("moves"),
+var counterMove = document.getElementById("moves"),
   count = 0;
-  function onclick() {
+  function move() {
   count += 1;
-  countMoves.innerHTML = "card " + count;
+  counterMove.innerHTML = count + "moves";
 };
 
 
-// function countMoves(){
-//     var movesCounter = document.getElementById('#moves');
-// movesCounter.addEventListener("click",()=>{
-//     count++;
-//     movesCounter.innerHTML = count;
-// })
-// }
+
 
