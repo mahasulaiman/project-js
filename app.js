@@ -75,13 +75,13 @@ if(openCard.length==2){
 }
 
 
-var counterMove = document.getElementById("moves"),
+var counterMove = document.getElementById("moves");
   count = 0;
-  function move() {
+  function move(){
   count += 1;
   counterMove.innerHTML = count + "moves";
-};
-
+ 
+}
 
 
 
