@@ -72,3 +72,20 @@ if(openCard.length==2){
 )
 }
 
+
+var countMoves = document.getElementById("moves"),
+  count = 0;
+  function onclick() {
+  count += 1;
+  countMoves.innerHTML = "card " + count;
+};
+
+
+// function countMoves(){
+//     var movesCounter = document.getElementById('#moves');
+// movesCounter.addEventListener("click",()=>{
+//     count++;
+//     movesCounter.innerHTML = count;
+// })
+// }
+
